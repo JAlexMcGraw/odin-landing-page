@@ -1,12 +1,17 @@
-.boundaryBox  {
-    display: flex;
-}
-
 #headerBox {
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
+    box-shadow: border-box;
+}
+
+#firstBoxContent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    gap: 20px;
 }
 
 #headerLinks {
@@ -15,17 +20,58 @@
 
 #firstBox {
     background-color: #1F2937;
-}
-
-.headerBox div {
-    flex: 1 1 0;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
 }
 
 #logo {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-family: 'Roboto';
     flex: 0 0 auto;
+    /* padding: 50px; */
 }
 
 .headerLink {
-    flex: 1;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 20px;
+    font-family: 'Roboto';
 }
 
+#headerLeftContentBox .content, .header {
+    color: #e5e7eb;
+}
+
+.header {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#headerLeftContentBox,
+#headerRightContentBox {
+    width: 50%;
+    /* flex: 0 0 auto; */
+    flex: 1;
+    box-sizing: border-box;
+    /* padding: 50px; */
+}
+
+#headerRightContentBox {
+    color: #e5e7eb;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    background-color: lightslategray;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px 5px 5px 5px;
+}
