@@ -96,4 +96,19 @@
     border: 2px solid blue; /* Set the border color and thickness */
     border-radius: 10px; /* Set the border radius for rounded edges */
     background-color: white; /* Optional: set a background color */
+    flex: 1 0 auto;
+}
+
+.subBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+#secondBoxContent {
+    max-width: 80vh;
+    margin: 0 auto;
 }
