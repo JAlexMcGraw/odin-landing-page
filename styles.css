@@ -1,4 +1,4 @@
-#headerBox {
+#headerBox, #secondBoxContent {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -74,4 +74,26 @@
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 5px 5px 5px 5px;
+}
+
+#secondBoxHeader {
+    text-align: center;
+    margin: auto;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.roundedEdgeBox {
+    color: #3882f6;
+    height: 50px;
+    width: 50px;
+    border: 2px #3882f6;
+}
+
+.roundedEdgeBox {
+    width: 150px; /* Set the width of the box */
+    height: 150px; /* Set the height of the box */
+    border: 2px solid blue; /* Set the border color and thickness */
+    border-radius: 10px; /* Set the border radius for rounded edges */
+    background-color: white; /* Optional: set a background color */
 }
