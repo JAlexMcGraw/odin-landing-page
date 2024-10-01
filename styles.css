@@ -21,7 +21,7 @@
 #firstBox {
     background-color: #1F2937;
     width: 100%;
-    padding: 50px;
+    /* padding: 50px; */
     box-sizing: border-box;
 }
 
@@ -66,7 +66,7 @@
     background-color: lightslategray;
 }
 
-.button {
+.signUp {
     background-color: #3882f6;
     color: #e5e7eb;
     padding-left: 15px;
@@ -79,6 +79,7 @@
 #secondBoxHeader {
     text-align: center;
     margin: auto;
+    padding-bottom: 25px;
     font-size: 36px;
     font-weight: 900;
 }
@@ -106,9 +107,59 @@
     justify-content: center;
     text-align: center;
     flex: 1;
+    /* padding: 25px; */
 }
 
 #secondBoxContent {
-    max-width: 80vh;
+    max-width: 100vh;
+    justify-content: space-around;
     margin: 0 auto;
+    gap: 20px;
+}
+
+.boundaryBox {
+    padding: 8vh;
+}
+
+#thirdBox {
+    background-color: #e5e7eb;
+    font-size: 36px;
+}
+
+#quote {
+    color: #1F2937;
+    font-style: italic;
+}
+
+#quoteContributor {
+    text-align: right;
+}
+
+#thirdBoxContent {
+    margin: 0 auto;
+    max-width: 100vh;
+}
+
+#fourthBoxContent {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 auto;
+    max-width: 110vh;
+    padding: 2em;
+}
+
+#fourthBoxLeft {
+    color: #f9faf8;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+#fourthBoxRight {
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+#bottom-button {
+    border-color: #f9faf8;
 }
